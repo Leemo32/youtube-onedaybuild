@@ -13,6 +13,9 @@
 		E51FED9D251C6F8000C2692C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51FED9B251C6F8000C2692C /* Main.storyboard */; };
 		E51FED9F251C6F8200C2692C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51FED9E251C6F8200C2692C /* Assets.xcassets */; };
 		E51FEDA2251C6F8200C2692C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51FEDA0251C6F8200C2692C /* LaunchScreen.storyboard */; };
+		E5EC226E251C976300B38E19 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC226D251C976300B38E19 /* Constants.swift */; };
+		E5EC2271251C99A200B38E19 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC2270251C99A200B38E19 /* Video.swift */; };
+		E5EC2275251C99E300B38E19 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC2274251C99E300B38E19 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E51FED9E251C6F8200C2692C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E51FEDA1251C6F8200C2692C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E51FEDA3251C6F8200C2692C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EC226D251C976300B38E19 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E5EC2270251C99A200B38E19 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E5EC2274251C99E300B38E19 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,12 @@
 				E51FED97251C6F8000C2692C /* SceneDelegate.swift */,
 				E51FED99251C6F8000C2692C /* ViewController.swift */,
 				E51FED9B251C6F8000C2692C /* Main.storyboard */,
+				E5EC226D251C976300B38E19 /* Constants.swift */,
 				E51FED9E251C6F8200C2692C /* Assets.xcassets */,
 				E51FEDA0251C6F8200C2692C /* LaunchScreen.storyboard */,
 				E51FEDA3251C6F8200C2692C /* Info.plist */,
+				E5EC2270251C99A200B38E19 /* Video.swift */,
+				E5EC2274251C99E300B38E19 /* Model.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 				E51FED9A251C6F8000C2692C /* ViewController.swift in Sources */,
 				E51FED96251C6F8000C2692C /* AppDelegate.swift in Sources */,
 				E51FED98251C6F8000C2692C /* SceneDelegate.swift in Sources */,
+				E5EC2275251C99E300B38E19 /* Model.swift in Sources */,
+				E5EC226E251C976300B38E19 /* Constants.swift in Sources */,
+				E5EC2271251C99A200B38E19 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
